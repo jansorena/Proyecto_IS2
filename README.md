@@ -61,14 +61,14 @@ El sprint 1 está orientado a atacar directamente la problemática principal y a
 
 ### US1
 Como Entrenador quiero registrar y ver la rutina y/o evaluación de un cliente para tener registro de lo realizado en la sesión.
-Modelar e implementar Base de Datos Relacional.
-Desarrollo de funcionalidades para registrar rutinas y evaluación
+- Modelar e implementar Base de Datos Relacional.
+- Desarrollo de funcionalidades para registrar rutinas y evaluación
 
 ### US2
 Como cliente quiero poder ver mi rutina de ejercicios diaria para recordar qué ejercicios hacer.
-Diseñar e implementar interfaz con rutinas actuales e históricas.
-Diseñar e implementar dashboard de progreso.
+- Diseñar e implementar interfaz con rutinas actuales e históricas.
+- Diseñar e implementar dashboard de progreso.
 
 ### US3
 Como Entrenador deseo revisar las horas agendadas para organizar mi horario y las sesiones.
-Diseño e implementación de interfaz para revisar horas agendadas.
+- Diseño e implementación de interfaz para revisar horas agendadas.
