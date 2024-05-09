@@ -5,7 +5,13 @@
 - [GitHub - Primo18/project-IS2-frontend](https://github.com/Primo18/project-IS2-frontend)
 - [GitHub - jansorena/project-IS2-backend](https://github.com/jansorena/project-IS2-backend)
 - [Figma](https://www.figma.com/file/hqd7Pbv1qLVgRzGOzsYRqX/12-22-FE1-(Copy)?type=design&node-id=0%3A1&mode=design&t=IfhCDQoqRic3OwGH-1 "https://www.figma.com/file/hqd7Pbv1qLVgRzGOzsYRqX/12-22-FE1-(Copy)?type=design&node-id=0%3A1&mode=design&t=IfhCDQoqRic3OwGH-1")
-- [Demo del proyecto](https://project-is2.netlify.app/ "https://project-is2.netlify.app/")
+- [Demo de la pagina web](https://project-is2.netlify.app/ "https://project-is2.netlify.app/")
+
+## Anexos
+
+- [Registro de Scrum Meetings](Scrum_Meetings.md)
+
+- [Video Demostracion Sprint 1 G2](https://youtu.be/ngeV_ontQPQ)
 
 # Visión del producto
 
@@ -88,7 +94,7 @@ Como Entrenador quiero registrar y ver la rutina y/o evaluación de un cliente p
 
 ### US2
 
-Como cliente quiero poder ver mi rutina de ejercicios diaria para recordar qué ejercicios hacer.
+Como cliente quiero poder ver mis evaluaciones y rutina de ejercicios diaria para recordar qué ejercicios hacer.
 
 - Diseñar e implementar interfaz con rutinas actuales e históricas.
 - Diseñar e implementar dashboard de progreso.
