@@ -28,7 +28,7 @@ En clases se replantea el problema y los problemas a abordar. Se redefine la vis
 
 ¿Qué problemas has tenido?: En general el grupo presenta problemas de comprensión en relación al stack tecnológico, especialmente React y Nodejs y cómo se comunica el frontend con el backend. Daniel realiza una ayuda guiada para el grupo.
 
-¿Qué voy a hacer mañana?: Tras discutir brevemente con el grupo Dayan realizará el diseño de la base de Datos, Daniel avanzara con el diseño de las rutinas, Jaime diseño del dashboard del cliente y Lucas con implementación ???. Patricio empezará a realizar el diseño principal en código.
+¿Qué voy a hacer mañana?: Tras discutir brevemente con el grupo Dayan realizará el diseño de la base de Datos, Daniel avanzara con el diseño de las rutinas, Jaime diseño del dashboard del cliente y Lucas con estudio y repaso de contenidos para realizar las consultas. Patricio empezará a realizar el diseño principal en código.
 
 ### Viernes 26/04
 
@@ -62,7 +62,7 @@ En clases se replantea el problema y los problemas a abordar. Se redefine la vis
 
 ¿Qué problemas has tenido?: Dudas como conectar la base de datos al backend y como realizar consultas SQL desde dentro del proyecto.
 
-¿Qué voy a hacer mañana?: Daniel conectará la base de datos al backend. Jaime agregará gráficos al dashboard. Patricio avanzará en las funcionalidades del calendario y la toma de horas.
+¿Qué voy a hacer mañana?: Daniel conectará la base de datos al backend. Jaime agregará gráficos al dashboard. Patricio avanzará en las funcionalidades del calendario y la toma de horas. Dayan revisará su implementación.
 
 ### Martes 30/04
 
@@ -82,7 +82,7 @@ En clases se replantea el problema y los problemas a abordar. Se redefine la vis
 
 ¿Qué voy a hacer mañana?:
 
-- Dayan realizará un acceso compartido a la interfaz de la turso (cuenta compartida) y ayudará junto con Jaime a la interfaz de realizar rutinas.
+- Dayan realizará un acceso compartido a la base de datos en Turso (cuenta compartida).
 
 ### Jueves 02/05
 
@@ -92,17 +92,27 @@ En clases se replantea el problema y los problemas a abordar. Se redefine la vis
 
 - Dayan avanza en el diseño de la interfaz para el registro de las rutinas.  
 
-- Patricio implementa botones e interfaz para registrar los json en la base de datos.
+- Patricio implementa botones e interfaz para registrar los json al agendar una hora de evaluación en la base de datos.
 
 - Lucas ya tiene las consultas sql para su parte del backend y corren en un test simplificado.  
 
-¿Qué problemas has tenido?: Problema en la definición de las rutinas, ¿cómo se identifican rutinas actuales de pasadas?. Ambiguo en la base de datos.
+¿Qué problemas has tenido?: Problema en la definición de las rutinas, ¿cómo se identifican rutinas actuales de pasadas?. Ambigüedad en la base de datos.
 
-¿Qué voy a hacer mañana?: Patricio revisará las horas y agregara una página home. Lucas va a configurar las rutas correspondientes para cada función.
+¿Qué voy a hacer mañana?: Patricio revisará las horas y agregara una página home. Lucas va a configurar las rutas correspondientes para cada función. Dayan comenzará a implementar una interfaz para las rutinas.
 
 ### Domingo 05/05
 
-Sin registro.
+¿Que se ha hecho?
+
+- Daniel, Jaime y Patricio reportan como terminadas sus tareas. Dayan mantiene estudio deReact. Lucas mantiene avance en backend y comienza a revisar implementación de registro de evaluaciones.
+
+¿Qué problemas has tenido?
+
+- Dayan expresa que se le ha complicado enteder detalles técnicos de React e implementación de un interfaz. Lucas menciona que posee pocos conocimientos en frontend con React.
+
+¿Qué voy a hacer mañana?
+
+- Jaime ayudará con la implementación de la interfaz para registrar rutinas en conjunto con Dayan. Lucas terminará el backend de su tarea y comenzará a revisar la interfaz del registro de evaluaciones.
 
 ### Martes 07/05
 
