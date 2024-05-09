@@ -10,7 +10,6 @@
 ## Anexos
 
 - [Registro de Scrum Meetings](Scrum_Meetings.md)
-
 - [Video Demostracion Sprint 1 G2](https://youtu.be/ngeV_ontQPQ)
 
 # Visión del producto
