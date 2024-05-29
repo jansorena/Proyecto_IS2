@@ -1,6 +1,6 @@
 # Scrum Meetings
 
-## Sprint
+## Sprint 1
 
 ### Viernes 19/04
 
@@ -127,5 +127,3 @@ El resto del grupo, cuyas tareas están completadas, se centraran en migrar las 
 Ultima scrum meeting. Lucas reporta el termino de su tarea y una interfaz sencilla donde se reporta el registro de los datos de las rutinas en la base de datos. Daniel realizo un testing final a la pagina para reportar distintos tipos de errores y hacer un merge al trabajo de lucas.
 
 Dayan realizara un videos de demostración para la entrega final del sprint.
-
-
