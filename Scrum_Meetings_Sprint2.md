@@ -62,3 +62,29 @@ Jaime Ansorena
 - Que haré mañana? 
   
   Implementación del código backend para el registro de usuarios.
+
+## 30 de mayo de 2024
+
+- Dayan Saez
+  Qué hice: Investigar sobre entrenamiento funcional y realizar un MER para revisar con el grupo.
+  Qué problemas tuve: el desconocimiento del entrenamiento funcional.
+  Qué haré mañana: Modificar la base de datos si mi modelo es aprobado por el equipo y el cliente le da el visto bueno o realizar otro.
+- Patricio Covarrubias
+  Que hice ayer?
+  Se realiza un esquema tanto para la vista admin, entrenador y cliente en figma.
+  Que problemas tuve?
+  Saber con exactitud que datos tomar en cuenta a la hora de mostrar información y para añadir información en la base de datos, y esto mostrarlo en la interfaz.
+  Que haré mañana?
+  Se realizarán los cambios respectivos a la forma de mostrar los datos en la interfaz dentro del esquema de figma.
+- Daniel López 
+  Qué hice: Estudie la documentación del stack en el backend 
+  Qué problemas tuve: no aplica
+  Qué haré mañana: implementar la lógica para el login al sistema
+- Jaime Ansorena
+  Que hice ayer?
+  Implementación de API para registrar clientes
+  Que problemas tuve?
+  Consultas no se ejecutaban correctamente
+  Que haré mañana?
+  
+  Implementación del front end para registrar usuarios
