@@ -69,6 +69,7 @@ Jaime Ansorena
   Qué hice: Investigar sobre entrenamiento funcional y realizar un MER para revisar con el grupo.
   Qué problemas tuve: el desconocimiento del entrenamiento funcional.
   Qué haré mañana: Modificar la base de datos si mi modelo es aprobado por el equipo y el cliente le da el visto bueno o realizar otro.
+
 - Patricio Covarrubias
   Que hice ayer?
   Se realiza un esquema tanto para la vista admin, entrenador y cliente en figma.
@@ -76,10 +77,12 @@ Jaime Ansorena
   Saber con exactitud que datos tomar en cuenta a la hora de mostrar información y para añadir información en la base de datos, y esto mostrarlo en la interfaz.
   Que haré mañana?
   Se realizarán los cambios respectivos a la forma de mostrar los datos en la interfaz dentro del esquema de figma.
+
 - Daniel López 
   Qué hice: Estudie la documentación del stack en el backend 
   Qué problemas tuve: no aplica
   Qué haré mañana: implementar la lógica para el login al sistema
+
 - Jaime Ansorena
   Que hice ayer?
   Implementación de API para registrar clientes
@@ -88,3 +91,38 @@ Jaime Ansorena
   Que haré mañana?
   
   Implementación del front end para registrar usuarios
+
+## 01 de junio de 2024
+
+- Dayan Saez
+  
+  Qué hice: Revise y estudie el backend que abarca el funcionamiento de las rutinas en la pagina web. Implemente la función de createRutina
+  Qué problemas tuve: Comprender el backend y queda pendiente como testear lo implementado.
+  Qué haré mañana: Ver como testear la creación de rutinas y revisar como se ven las rutinas desde el backend
+
+- Patricio Covarrubias
+  
+  Que hice ayer?
+  Se realiza una implementación nueva para la vista de entrenador, la cual se pone a prueba.
+  Que problemas tuve?
+  Volver a diseñar el orden de los archivos y su conexión.
+  Que haré mañana?
+  Se realizarán más implementaciones en el front-end de la solución software.
+
+- Lucas Escalona
+  
+  Qué hice: trabajé en la creación de la vista para crear rutinas.
+  Que problema tuve: No hay buena manera de exportar cosas del figma.
+  Que voy a hacer mañana: Seguir trabajando en la vista de crear rutinas, espera terminarlo y trabajar en otra vista.
+
+- Daniel Lopez
+  
+  Qué hice: Limpieza del backend y modificación de la base de datos
+  Que problema tuve: problemas para ajustar el backend quede funcional
+  Que voy a hacer mañana: seguir implementando el login en el backend
+
+- Jaime Ansorena
+  
+  Qué hice: Validar datos al registrar los usuarios y empezar con ciertos elementos del frontend
+  Que problema tuve: disposicion y trabajo de la interfaz
+  Que voy a hacer mañana: terminar la modificacion de los usuarios y la interfaz correspondiente
