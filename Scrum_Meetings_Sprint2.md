@@ -126,3 +126,38 @@ Jaime Ansorena
   Qué hice: Validar datos al registrar los usuarios y empezar con ciertos elementos del frontend
   Que problema tuve: disposicion y trabajo de la interfaz
   Que voy a hacer mañana: terminar la modificacion de los usuarios y la interfaz correspondiente
+
+## 03 de junio de 2024
+
+- Dayan Saez
+  
+  Qué hice: Terminar la función que crea una rutina.
+  Qué problema tuve: Errores en detalles de la función.
+  Qué voy a hacer mañana: Comenzaré a estudiar y realizar la tarea 3661
+
+- Daniel López
+  
+  Qué hice: Implementar una primera versión de la vista de los clientes con sus rutinas
+  Qué problemas tuve: fusionar los distintos cambios entre ramas hechos por cada compañero y no causar conflictos
+  Qué haré mañana: seguir implementando la vista de los clientes
+
+- Lucas Escalona
+  
+  Qué hice: Terminé la estructura de la vista crear rutinas.
+  Que problema tuve: Problemas en backend debido a la forma en que se estaban llamando las consultas SQL.
+  Que voy a hacer: Crear funciones en el backend para usar nombres en vez de ids.
+
+- Patricio Covarrubias
+  
+  Que hice ayer?
+  Se realizan los últimos ajustes al esquema del diseño en figma y se sigue completando el código.
+  que problemas tuve?
+  Realizar la distinción de vistas en el código, puesto que no hay conexión aún.
+  Que hare mañana?
+  Se continuara con el código de las vistas e implementar.
+
+- Jaime Ansorena
+
+- Qué hice: Terminar el front para el edición y registro de clientes. Ademas se crea una tabla donde se muestran los distintos usuarios. Se modifica una parte de la barra lateral de la interfaz.
+  Que problema tuve: Gran cantidad de ficheros antiguos en el código. Confusión en ciertas llamadas de funciones.
+  Que voy a hacer: Testear ambas tareas.
