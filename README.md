@@ -21,61 +21,103 @@ La plataforma está a disposición de los entrenadores y clientes en los distint
 
 # Product Backlog
 
-## Historias de usuario:
+> Actualizado 27/05/2024
 
-### Administrador
-
-- Como administrador quiero entrar a la plataforma mediante un login para poder gestionar usuarios, sesiones de entrenamiento y datos de las máquinas.
+- [x] US1: Como Entrenador quiero registrar y ver la rutina y/o evaluación de un cliente para tener registro de lo realizado en la sesión.
   
-  - CA: Administrador ingresa mediante un login con sus credenciales. Tras la verificación, el administrador es redirigido a la página principal del panel de administración.
-
-- Como administrador quiero poder registrar a los nuevos clientes (nombre, sexo, edad, diagnosticos, etc), para que los entrenadores puedan acceder a esta información y personalizar los entrenamientos.
+  :checkered_flag: Criterio de aceptación: El entrenador tiene acceso a un formulario donde puede registrar o modificar las rutinas de los clientes. Estas rutinas incluyen ejercicios, series, repeticiones y observaciones. Una vez guardadas, estas rutinas son accesibles para consulta futura tanto por el entrenador como por el cliente.
   
-  - CA: Cuando el administrador esté logueado, al ingresar un nuevo cliente podré especificar sus datos: rut, nombre, sexo, historial médico, fecha nacimiento, los cuales son almacenados en la plataforma y serán visibles por administradores y entrenadores
-
-- Como administrador quiero actualizar o registrar una membresía posterior al pago de esta para gestionar suscripciones.
+  :heavy_exclamation_mark: Tareas:
   
-  - CA: El administrador accede a un formulario donde pueda ingresar o actualizar los detalles de la membresía, incluyendo: Fecha de inicio y fecha de vencimiento de la membresía. Estos datos son almacenados en la plataforma.
-
-- Como administrador quiero manejar a los clientes inscritos para modificar posibles cambios asociados al cliente.
+  - [x] Modelar e implementar Base de Datos Relacional.
   
-  - CA: El administrador puede acceder al cliente específico y puede modificar cualquier dato que desee o borrar al cliente. Luego la plataforma registra los cambios
-
-- Como administrador quiero manejar datos de las máquinas y sus estados para que el Entrenador pueda crear rutinas con el uso de una máquina y clientes sepan la disponibilidad de una máquina.
-
-- Como administrador quiero manejar datos que vinculan zonas del cuerpo trabajadas con las respectivas máquinas.
+  - [x] Desarrollo de funcionalidades para registrar rutinas y evaluación.
   
-  - CA: El administrador puede acceder a la máquina específica y puede modificar cualquier dato que desee o borrar la máquina. Luego la plataforma registra los cambios.
-
-- Como administrador quiero manejar datos del Entrenador y sus horarios para poder agendar sesiones de entrenamiento y evaluaciones.
-
-- Como administrador quiero saber que cliente está a cargo de un determinado Entrenador (máximo 4 por Entrenador).
+  - [x] Adaptar la base de datos e interfaz para permitir el registro de rutinas que consideren tiempo y soporte circuitos.
   
-  - CA: El administrador puede acceder al horario específico de un entrenador y agendar o borrar una sesión de entrenamiento o evaluación. La plataforma registra y guarda las modificaciones al horario del entrenador.
+  - [x] Realizar la conexión entre la interfaz y la base de datos. 
 
-### Entrenador
-
-- Como Entrenador quiero entrar a la plataforma mediante un login para planificar los entrenamientos de los clientes.
+- [x] ~~US2: Como cliente quiero poder ver mi rutina de ejercicios diaria para recordar qué ejercicios hacer.~~
   
-  - CA: Entrenador ingresa mediante un login con sus credenciales. Tras la verificación, el entrenador es redirigido a la página principal del panel de entrenador donde puede ver su agenda y las rutinas asignadas.
-
-- Como Entrenador quiero registrar y ver la rutina y/o evaluación de un cliente para tener registro de lo realizado en la sesión.
+  ~~:checkered_flag: Criterio de aceptación:El cliente puede acceder a su perfil donde se muestra la rutina diaria asignada por su entrenador. Esta incluye detalles como los ejercicios, número de series, repeticiones y cualquier nota adicional del entrenador.~~
   
-  - CA: El entrenador tiene acceso a un formulario donde puede registrar o modificar las rutinas de los clientes. Estas rutinas incluyen ejercicios, series, repeticiones y observaciones. Una vez guardadas, estas rutinas son accesibles para consulta futura tanto por el entrenador como por el cliente.
-
-- Como Entrenador deseo revisar las horas agendadas para organizar mi horario y las sesiones.
+  ~~:heavy_exclamation_mark: Tareas:~~
   
-  - CA: El entrenador puede acceder a un calendario interactivo que muestra todas las sesiones programadas. Puede visualizar detalles de cada sesión, incluyendo el cliente asociado, la hora y la duración de la sesión. El entrenador puede confirmar asistencia o reprogramar sesiones desde esta vista.
-
-- Como Entrenador quiero saber el estado de las máquinas para saber qué ejercicios se pueden realizar.
+  - [x] ~~Diseñar e implementar interfaz con rutinas actuales e históricas.~~
   
-  - CA: El entrenador tiene acceso a una sección del sistema donde puede ver el estado actualizado de cada máquina. Esta información ayuda al entrenador a planificar adecuadamente las rutinas de ejercicios que dependen del uso de máquinas específicas.
+  - [x] ~~Diseñar e implementar dashboard de progreso.~~
 
-### Cliente
-
-- Como cliente quiero poder ver mi progreso y rutina de ejercicios diaria para recordar qué ejercicios hacer.
+- [x] ~~US3: Como Entrenador deseo revisar las horas agendadas para organizar mi horario y las sesiones.~~
   
-  - CA: El cliente puede acceder a su perfil donde se muestra la rutina diaria asignada por su entrenador. Esta incluye detalles como los ejercicios, número de series, repeticiones y cualquier nota adicional del entrenador.
+  ~~:checkered_flag: Criterio de aceptación:El entrenador puede acceder a un calendario interactivo que muestra todas las sesiones programadas. Puede visualizar detalles de cada sesión, incluyendo el cliente asociado, la hora y la duración de la sesión. El entrenador puede confirmar asistencia o reprogramar sesiones desde esta vista.~~
+  
+  ~~:heavy_exclamation_mark: Tareas:~~
+  
+  - [x] ~~Diseño e implementación de interfaz para revisar horas agendadas.~~
+
+- [x] US4: Como administrador quiero poder gestionar los datos de los clientes (registro y modificación), para que los entrenadores puedan acceder a esta información y personalizar los entrenamientos.
+  
+  :checkered_flag: Criterio de aceptación: Como administrador autenticado, puedo acceder a la sección de registro de clientes para ingresar sus datos y registrarlos en la base de datos, recibiendo una confirmación exitosa. También puedo acceder a la lista de clientes, seleccionar uno existente, modificar sus datos y recibir una confirmación de actualización exitosa. Además, puedo ver y actualizar los datos de clientes en la interfaz, con los cambios reflejándose instantáneamente. La interfaz de gestión de clientes me permite ver una lista de todos los clientes registrados, realizar búsquedas y filtrados, y acceder a las opciones de registro y modificación. Los administradores y entrenadores pueden acceder al sistema de gestión de clientes mediante un sistema de login con credenciales correctas, recibiendo un mensaje de error si son incorrectas. Como entrenador autenticado, puedo ver y gestionar las rutinas de entrenamiento personalizadas vinculadas a cada cliente.
+  
+  :heavy_exclamation_mark: Tareas:
+  
+  - [x] Implementar funcionalidades para el registro, modificación y actualización de datos de los clientes.
+  
+  - [x] Crear una interfaz conectada a la base de datos para la gestión de clientes. 
+  
+  - [x] Vincular y visualizar usuarios con sus rutinas. 
+
+- [x] US5: Como usuario de la plataforma (administrador, entrenador, cliente) quiero que entrar a la plataforma y que la plataforma sea usable para facilitar la interacción y entrada de datos.
+  
+  :checkered_flag: Criterio de aceptación: La plataforma debe ofrecer una interfaz intuitiva que permita a los usuarios nuevos realizar tareas básicas sin ayuda externa. Las páginas deben tener una carga rápida, cargando en menos de 2 segundos, y proporcionar feedback claro con mensajes explícitos y útiles para acciones exitosas y errores. Todas las funcionalidades deben ser compatibles con dispositivos móviles y la página debe ser responsiva. Además, los elementos de la interfaz deben mantener una consistencia de diseño, con un estilo y comportamiento coherentes en toda la plataforma. Los formularios deben incluir una validación de datos adecuada para asegurar que los datos sean correctos antes de enviarlos
+  
+  :heavy_exclamation_mark: Tareas:
+  
+  - [x] Realizar diseño figma para la planificación previa de la interfaz general.
+  
+  - [x] Mejorar el diseño general para hacerlo más ameno al usuario.
+  
+  - [x] Implementar un sistema de login para los distintos usuarios.
+
+---
+
+Pendientes de actualización y revisión con el cliente
+
+- [ ] US6: Como administrador quiero manejar datos de las máquinas y sus estados para que el Entrenador pueda crear rutinas con el uso de una máquina y clientes sepan la disponibilidad de una máquina.
+  
+  :checkered_flag: Criterio de aceptación:
+  
+  :heavy_exclamation_mark: Tareas:
+  
+  - [ ] Actualizar la vista de detalles de rutina para incluir información de las máquinas utilizadas.
+  
+  - [ ] Actualizar la base de datos para incluir información sobre máquinas.
+  
+  - [ ] Vincular el frontend con la base de datos para mostrar las maquinas junto a las rutinas.
+
+- [ ] US7: Como administrador quiero actualizar o registrar una membresía posterior al pago de esta para gestionar suscripciones.
+  
+  :checkered_flag: Criterio de aceptación:
+  
+  :heavy_exclamation_mark: Tareas:
+
+- [ ] US8: Como administrador quiero manejar datos que vinculan zonas del cuerpo trabajadas con las respectivas máquinas.
+  
+  :checkered_flag: Criterio de aceptación:
+  
+  :heavy_exclamation_mark: Tareas:
+
+- [ ] US9: Como administrador quiero manejar datos del Entrenador y sus horarios para poder agendar sesiones de entrenamiento y evaluaciones.
+  
+  :checkered_flag: Criterio de aceptación:
+  
+  :heavy_exclamation_mark: Tareas:
+
+- [ ] US10: Como Entrenador quiero saber el estado de las máquinas para saber qué ejercicios se pueden realizar.
+  
+  :checkered_flag: Criterio de aceptación:
+  
+  :heavy_exclamation_mark: Tareas:
 
 # Sprint 1
 
@@ -94,10 +136,10 @@ Como Entrenador quiero registrar y ver la rutina y/o evaluación de un cliente p
 
 ### US2
 
-Como cliente quiero poder ver mis evaluaciones y rutina de ejercicios diaria para recordar qué ejercicios hacer.
+~~Como cliente quiero poder ver mis evaluaciones y rutina de ejercicios diaria para recordar qué ejercicios hacer.~~
 
-- Diseñar e implementar interfaz con rutinas actuales e históricas.
-- Diseñar e implementar dashboard de progreso.
+- ~~Diseñar e implementar interfaz con rutinas actuales e históricas.~~
+- ~~Diseñar e implementar dashboard de progreso.~~
 
 ### US3
 
@@ -106,5 +148,38 @@ Como Entrenador deseo revisar las horas agendadas para organizar mi horario y la
 - Diseño e implementación de interfaz para revisar horas agendadas.
 
 # Sprint 2
+
+## Visión del sprint 2
+
+Inicialmente se mejorará el diseño de la interfaz de la plataforma web modificándose en conjunto con la base de datos para permitir el registro de rutinas con circuitos. Se terminará de abarcar la problemática principal, dejando funcional la interfaz de entrenadores, permitiéndoles añadir rutinas y evaluaciones que son registradas en la base de datos del gimnasio. Se pondrá en marcha la interfaz de administración, permitiendo el login de los administradores y la gestión de usuarios por parte de estos.
+
+### US1
+
+Como entrenador quiero registrar y ver la rutina y/o evaluación de un cliente considerando ejercicios en base a tiempos y circuitos para tener un registro más completo de lo realizado en la sesión.
+
+Tareas:
+
+- Adaptar la base de datos e interfaz para permitir el registro de rutinas que consideren tiempo y soporte circuitos.
+- Realizar la conexión entre la interfaz y la base de datos.
+
+### US4
+
+Como administrador quiero poder gestionar los datos de los clientes  (registro, modificación y actualización), para que los entrenadores puedan acceder a esta información y personalizar los entrenamientos.
+
+Tareas:
+
+- Implementar funcionalidades para el registro, modificación y actualización de datos de los clientes.
+- Crear una interfaz conectada a la base de datos para la gestión de clientes.
+- Implementar un sistema de Login para administradores.
+- Vincular y visualizar usuarios con sus rutinas.
+
+### US5
+
+Como usuario de la plataforma (administrador, entrenador, cliente) quiero que la usabilidad de la plataforma sea mejorada para facilitar la interacción y entrada de datos
+
+Tareas:
+
+- Realizar diseño figma para la planificación previa de la interfaz general.
+- Mejorar el diseño general para hacerlo más ameno al usuario.
 
 # Sprint 3
