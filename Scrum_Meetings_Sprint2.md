@@ -157,7 +157,48 @@ Jaime Ansorena
   Se continuara con el código de las vistas e implementar.
 
 - Jaime Ansorena
-
-- Qué hice: Terminar el front para el edición y registro de clientes. Ademas se crea una tabla donde se muestran los distintos usuarios. Se modifica una parte de la barra lateral de la interfaz.
+  
+  Qué hice: Terminar el front para el edición y registro de clientes. Ademas se crea una tabla donde se muestran los distintos usuarios. Se modifica una parte de la barra lateral de la interfaz.
   Que problema tuve: Gran cantidad de ficheros antiguos en el código. Confusión en ciertas llamadas de funciones.
   Que voy a hacer: Testear ambas tareas.
+
+## 05 de junio de 2024
+
+- Patricio Covarrubias
+  
+  que hice ayer?
+  Se afinan los últimos detalles en la implementación y se realiza el testing de las tareas de Lucas.
+  que problemas tuve?
+  No hubo problemas en general.
+
+- Daniel Lopez
+  
+  que hice ayer?
+  termine de integrar la vista de rutinas del cliente y realizar test del login
+  que problemas tuve?
+  problemas con la consulta a la BD
+  que haré mañana?
+  refactorizar código y arreglar bugs
+
+- Dayan Saez
+  
+  Qué hice
+  Revise lo realizado por el equipo y testee las tareas de Daniel. Revise y modifique el product backlog.
+  Qué problemas tuve
+  N/A
+
+- Jaime Ansorena
+  
+  Que hice
+  
+  Se corrigen bugs del frontend, especialmente del registro de rutinas y algunos detalles en clientes. Se realiza el testing a las tareas de Dayan.
+  
+  Que problemas tuve.
+  
+  No aplica
+
+- Lucas Escalona
+
+- Qué hice: Se termina la vista de rutinas y las funciones necesarias para ingresar datos sin tratar con id.
+  
+  Además, hice el test a las tareas "Implementar funcionalidades para el registro, y modificación de datos de los clientes" y "Crear una interfaz conectada a la base de datos para la gestión de clientes".
