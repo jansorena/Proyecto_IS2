@@ -7,6 +7,8 @@
 - [Figma](https://www.figma.com/file/hqd7Pbv1qLVgRzGOzsYRqX/12-22-FE1-(Copy)?type=design&node-id=0%3A1&mode=design&t=IfhCDQoqRic3OwGH-1 "https://www.figma.com/file/hqd7Pbv1qLVgRzGOzsYRqX/12-22-FE1-(Copy)?type=design&node-id=0%3A1&mode=design&t=IfhCDQoqRic3OwGH-1")
 - [Demo de la pagina web](https://project-is2.netlify.app/ "https://project-is2.netlify.app/")
 
+`user: admin@email.com password:admin`
+
 ## Anexos
 
 - [Registro de Scrum Meetings - Sprint1](Scrum_Meetings_Sprint1.md)
