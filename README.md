@@ -13,6 +13,7 @@
 
 - [Registro de Scrum Meetings - Sprint1](Scrum_Meetings_Sprint1.md)
 - [Registro de Scrum Meetings - Sprint2](Scrum_Meetings_Sprint2.md)
+- [Registro de Scrum Meetings - Sprint3](Scrum_Meetings_Sprint3.md)
 - [Video Demostracion Sprint 1 G2](https://youtu.be/ngeV_ontQPQ)
 
 # Visión del producto
