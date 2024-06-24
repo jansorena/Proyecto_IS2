@@ -80,11 +80,14 @@ Lucas Escalona
 - Qué hice ayer
   
   Termine las funciones en el backend
+
 - Qué problemas tuve 
   
   N/A
+
 - Qué voy a hacer
-- Diseñar la vista
+  
+  Diseñar la vista
 
 Jaime Ansorena
 
@@ -96,3 +99,66 @@ Jaime Ansorena
 
 - ¿Qué voy a hacer?
   Empezar la implementación de la nueva vista de las rutinas
+
+## Sábado 22/06/2024
+
+Daniel López
+
+- Qué hice ayer
+  Revisión frontend features agregadas
+
+- Qué problemas tuve
+  Problema boton menu ya no funciona
+
+- Qué voy a hacer
+  
+  Fix boton menu
+
+Lucas Escalona
+
+- Qué hice ayer
+  Hice que la informacion de la base de datos se vea en la vista
+
+- Qué problemas tuve
+  
+  N/A
+
+- Qué voy a hacer
+  crear pestaña para manejar las modificaciones al estado de la maquina.
+
+Patricio Covarrubias
+
+- ¿Qué hice ayer?
+  Se finaliza el esquema del entrenador
+
+- ¿Qué problemas tuve?
+  N/A
+
+- ¿Qué voy a hacer?
+  Se seguirá con la implementación del esquema en el front end del dashboard del entrenador y administrador
+
+Dayan Saez
+
+- Qué hice ayer
+  
+  Modificación de base de datos para que soporte estado de circuitos y modificación de funciones para que consideren esto.
+
+- Que problemas tuve
+  
+  N/A
+
+- Que voy a hacer
+  Revisar las funciones y corregir posibles errores.
+
+Jaime Ansorena
+
+- Qué hice ayer
+  
+  Avanzar en el frontend de la edicion de las rutinas y rutinas activas.
+
+- Que problemas tuve
+  
+  Problemas en el manejo de las rutinas a editar. Relacionado con los ids de los elementos a editar.
+
+- Que voy a hacer
+  Arreglar los errores encontrados con las rutinas a editar.
