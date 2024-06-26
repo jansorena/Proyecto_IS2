@@ -162,3 +162,45 @@ Jaime Ansorena
 
 - Que voy a hacer
   Arreglar los errores encontrados con las rutinas a editar.
+
+## Martes 25/06/2024
+
+Patricio Covarrubias
+
+- ¿Qué hice ayer? Se finaliza el esquema del admin 
+
+- ¿Qué problemas tuve? N/A 
+
+- ¿Qué voy a hacer? Se seguirá con la conexión entre el front end implementado y las funciones del backend
+
+Daniel López
+
+- ¿Qué hice ayer? Se testea funcionalidades 
+
+- ¿Qué problemas tuve? N/A 
+
+- ¿Qué voy a hacer? Apoyar al equipo en las demás features que se están implementando
+
+Dayan Saez
+
+- Qué hice ayer. Trabaje en el diseño e implementación de la vista de editar rutinas
+
+- Que problemas tuve. N/A
+
+- Que voy a hacer. Finalizar el front y revisar posibles errores
+
+Lucas Escalona
+
+- Qué hice ayer. Finalicé mi tarea, permitiendo que los cambios a los estados de las máquinas se reflejen en la vista y en la base de datos
+
+- Qué problemas tuve. N/A
+
+- Qué voy a hacer. N/A
+
+Jaime Ansorena
+
+- Qué hice ayer. Se terminaron de corregir cambios en el frontend y backend para el registro y modificacion de las rutinas. Se arreglaron bugs en las llamadas a la API.
+
+- Qué problemas tuve. N/A
+
+- Qué voy a hacer. Coordinar con Dayan y Patricio y terminar la tarea.
